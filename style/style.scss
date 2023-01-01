@@ -1,0 +1,39 @@
+@use './mixins' as *;
+
+:root {
+  --light: #cee3e9;
+  --green: #52ffa8;
+  --blue: #4e5d73;
+  --dark-grayish: #323a49;
+  --dark-blue: #1f2632;
+}
+
+// GLOBAL ROLES
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  background-color: var(--dark-blue);
+  min-height: 100vh;
+  width: 100vw;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+// COMPONENTS
+.container {
+  
+}
