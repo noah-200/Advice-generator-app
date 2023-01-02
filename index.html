@@ -10,10 +10,11 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Advice generator app</title>
+    <!-- Google Fonts Library -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -25,19 +26,33 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
-    <link rel="stylesheet" href="style/style.css">
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-
     <section class="container">
-      
-
-      Advice #<!-- Advice ID goes here -->
-  
-      "<!-- Advice text goes here -->"
+      <div class="advice-num">Advice #<span>117</span></div>
+      <blockquote class="advice-txt">
+        It is easy to sit up and take notice, what's difficult is getting up
+        and taking action
+      </blockquote>
+      <div class="line">
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="ball">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 160c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32zm32 160c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zm64-64c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32zM352 160c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM320 384c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"
+          />
+        </svg>
+      </div>
     </section>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
@@ -45,6 +60,6 @@
         rel="noopener"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>

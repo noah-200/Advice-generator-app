@@ -39,12 +39,12 @@ $breakPoints-to: (
   }
 }
 
-@mixin transition($delay: 400ms) {
-  -webkit-transition: all $delay ease-in-out;
-  -moz-transition: all $delay ease-in-out;
-  -ms-transition: all $delay ease-in-out;
-  -o-transition: all $delay ease-in-out;
-  transition: all $delay ease-in-out;
+@mixin transition($delay: 400ms, $all: all) {
+  -webkit-transition: $all $delay ease-in-out;
+  -moz-transition: $all $delay ease-in-out;
+  -ms-transition: $all $delay ease-in-out;
+  -o-transition: $all $delay ease-in-out;
+  transition: $all $delay ease-in-out;
 }
 
 @mixin radius($deg: 50%) {
